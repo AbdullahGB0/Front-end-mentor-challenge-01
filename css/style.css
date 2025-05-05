@@ -1,0 +1,1050 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --fontraleway:"Raleway", sans-serif;
+    --fontopen:"Open Sans", sans-serif;
+    --fontColor:hsl(243, 87%, 12%);
+    --fontColor2:hsl(238, 22%, 44%);
+}
+body {
+    font-family: var(--fontopen);
+    font-size:16px;
+}
+.fatherfather {
+    margin: 50px;
+}
+/* navbar */
+nav {
+    font-family: var(--fontraleway);
+    font-weight: 600;
+}
+nav div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav img {
+    height: 35px;
+    width: 111px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 35px;
+    color: rgb(0, 0, 0, 0.7);
+    transition: 0.4s;
+}
+/* section one */
+.features {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    flex-flow: row-reverse;
+}
+.sec1img img {
+    width: 90%;
+    height: 100%;
+}
+.sec1img {
+    display: flex;
+    justify-content: flex-end;    
+    margin-right: 30px;
+}
+.features .div-text h1 {
+    font-family: var(--fontraleway);
+    color: var(--fontColor);
+    line-height: 50px;
+    font-size: 45px;
+}
+.features .div-text p {
+    color: var(--fontColor);
+    margin-top: 15px;
+    line-height: 24px;
+}
+.emailf {
+    padding: 10px 135px 10px 0;
+    margin: 20px 15px 0 0;
+    border-radius: 3px;
+    border: hsl(240, 46%, 20%) solid 1px;
+    text-align: center;
+}
+.div-text button {
+    padding: 10px 50px 12px 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: var(--fontraleway);
+    font-weight: 600;
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* About  */
+.about  {
+    background-color: #F8F8FF;
+    border-radius: 25% 30% 0 0;
+    margin-top: 100px;
+    background-image: url(/images/bg-curve-desktop.svg);
+    display: flex;
+    justify-content: center;
+}
+.curv {
+    display: none;
+}
+.div-textbout {
+    margin: 50px ;
+}
+.div-textbout h1 {
+color: var(--fontColor);
+font-family: var(--fontraleway);
+font-size: 35px;
+margin-bottom: 20px;
+}
+.div-textbout p {
+    color:hsl(243, 87%, 12%, 0.8);
+    font-weight: 400;
+    font-size: 16px;
+}
+.textmarg {
+    margin: 25px;
+}
+.div-textbout a {
+color: hsl(170, 45%, 43%);
+display: flex;
+align-items: center;
+margin: 15px 0;
+transition: 0.4s;
+cursor: pointer;
+}
+.div-textbout a img {
+    margin-left: 4px;
+}
+.massage {
+    background-color: white;
+    width: fit-content;
+}
+.massage img {
+    
+}
+.msgdiv {
+    padding: 25px;
+    margin-top: 40px;
+}
+.profile img {
+border-radius: 50%;
+width: 12%;
+height: 12%;
+}
+.picflex {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.picflextext b {
+    font-size: 12px;
+}
+.picflextext p {
+    font-size: 9px;
+}
+.picflextext {
+    margin-left: 10px;
+} 
+.msgdiv h5 {
+    line-height: 23px ;
+    color: var(--fontColor);
+    font-weight: 450;
+}
+.imgabout img {
+    width: 542px;
+    margin-left: 210px;
+    margin-right: 50px;
+}
+.div-marg {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    flex-flow: row-reverse;
+}
+/* Section 3 */
+.early-accs {
+    background-color:#575988 ;
+    color: white;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.div-inputs3 button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: var(--fontraleway);
+    font-weight: 600;
+    box-shadow: 0px 1px 20px 0px #000000;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+.div-inputs3 input {
+    padding: 10px 230px 10px 0;
+    margin: 20px 15px 0 0;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 20px 0px #000000;
+    
+}
+.div-inputs3 {
+    width: 50%;
+    margin-left: 400px;
+}
+.div-margs3 {
+    margin: 70px;
+    display: flex;
+}
+.div-texts3 {
+    width: 50%;
+}
+.div-texts3 h2 {
+    font-weight: 500;
+}
+.div-texts3 p {
+    color: rgb(100%, 100%, 100%, 0.8);
+}
+.onlyipad {
+    display: none;
+}
+/* Footer */
+footer {
+    background-color: #06043A;
+    color: white;
+}
+.social a img {
+    width: 30px;
+    margin-right: 7px;
+        filter: brightness(0) invert(1);
+}
+.fatherfoot {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.fatherfoot div {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    margin-right: 50px;
+    align-self: baseline;
+}
+.fatherfoot div ul li {
+    margin-top: 15px;
+    list-style: none;
+    font-weight: 340;
+}
+.logofooter {
+    width:160px;
+    height: 50px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+footer div ul li a {
+    transition: 0.4s;
+}
+.pem {
+    text-decoration:
+    none;text-decoration: none;
+    color: white;
+}
+/* Hovers */
+nav a:hover {
+color:black;
+}
+.div-text button:hover {
+    background-color: #6A9BFE;
+}
+.div-textbout a:hover {
+color: hsl(170, 45%, 43%, 0.7);
+}
+.div-inputs3 button:hover {
+    background-color: #6A9BFE;
+}
+footer div ul li a:hover {
+color: hsl(224, 93%, 58%);
+cursor: pointer;
+}
+/* Media Queries  */
+@media screen and (max-width:575px) {
+body {
+
+}
+
+    nav div {
+    justify-content: space-between;
+    margin: 23px;
+    align-items: center;
+}
+nav a {
+    margin-right: 17px ;
+}
+nav img {
+    height: 30px;
+    width: 98px;
+    margin-right: 15px;
+
+}
+nav ul {
+    font-size: 16px;
+}
+.fatherfather {
+    margin: 0;
+    
+}
+
+.features .div-text h1 {
+    text-align: center;
+    font-size:24px; 
+    line-height: 30px;
+    font-family: var(--fontopen);
+}
+.features .div-text p {
+    text-align: center;
+}
+.features .div-text p span {
+    display: none;
+    
+}
+.sec1img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+}
+.features {
+    flex-direction: column;
+    justify-content: center;
+}
+.emailf {
+    /* padding: 10px 160px 10px 0; */
+    font-family: var(--fontraleway);
+    margin: 10px 0 0 16px;
+    width: 90%;}
+.textmarg {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex
+;
+}
+.div-text button {
+    margin-top: 20px;
+        /* padding: 10px 115px 12px 115px; */
+        font-size: 15px;
+        margin: 15px 0 0 15px;
+        width: 91%;
+}
+/* about */
+.about {
+    margin-top: 0;
+    border-radius: 0;
+    display: block;
+    flex-flow: row-reverse;
+
+}
+.imgabout img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.div-marg {
+    display: flex;
+        flex-direction: column;
+}
+.curv {
+    display: none;
+    width: 375px;
+    position: absolute;
+    top: 123%;
+}
+.div-textbout .textmarg h1 {
+    font-size: 17px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+}
+.div-textbout {
+    margin: 0px; 
+    
+    
+}
+.div-textbout .textmarg p{
+    font-size: 14px;
+}
+.brspanp {
+    display: none;
+}
+.div-textbout a {
+margin: 42px 79px;
+transition: 0.4s;
+}
+.massage {
+    border-radius: 5px;
+    margin: 55px 0 105px;
+}
+.msgdiv {
+    font-size: 16px;
+    margin-top: -10px; 
+    text-align: start;
+}
+.picflextext {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+ /* Section 3 */
+.div-margs3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+}
+.div-texts3 h2 {
+    margin: 46px 92px 17px;
+    font-size: 18px;
+}
+.div-inputs3 {
+    margin: 0;
+    width: 100%;
+    
+}
+.div-inputs3 input {
+    padding: 10px 92px 10px 0px;
+    margin: 28px 0 0 0;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.div-inputs3 button {
+    padding: 10px 63px 10px 63px;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: var(--fontraleway);
+    font-weight: 600;
+    box-shadow: none;
+}
+.div-texts3 {
+    width: 100%;
+    text-align: center;
+}
+.div-texts3 p {
+    padding: 0px 22px;
+}
+.early-accs {
+    padding-bottom: 60px;
+}
+/* Footer */
+.fatherfoot {
+    display: flex;
+    flex-direction: column;
+}
+.fatherfoot div {
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.logofooter {
+    margin-bottom: 10px;
+}
+.fc {
+    margin-left: 0;
+    margin-bottom: 13px;
+}
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    nav div {
+    justify-content: space-between;
+    margin: 23px;
+    align-items: center;
+}
+nav a {
+    margin-right: 17px ;
+}
+nav img {
+    height: 30px;
+    width: 98px;
+    margin-right: 15px;
+
+}
+nav ul {
+    font-size: 16px;
+}
+.fatherfather {
+    margin: 0;
+    
+}
+
+.features .div-text h1 {
+    text-align: center;
+    font-size:24px; 
+    line-height: 30px;
+    font-family: var(--fontopen);
+}
+.features .div-text p {
+    text-align: center;
+}
+.features .div-text p span {
+    display: none;
+    
+}
+.sec1img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+}
+.features {
+    flex-direction: column;
+    justify-content: center;
+}
+.emailf {
+    /* padding: 10px 160px 10px 0; */
+    font-family: var(--fontraleway);
+    margin: 10px 0 0 16px;
+    width: 90%;}
+.textmarg {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex
+;
+}
+.div-text button {
+    margin-top: 20px;
+        /* padding: 10px 115px 12px 115px; */
+        font-size: 15px;
+        margin: 15px 0 0 15px;
+        width: 91%;
+}
+/* about */
+.about {
+    margin-top: 0;
+    border-radius: 0;
+    display: block;
+    flex-flow: row-reverse;
+
+}
+.imgabout img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.div-marg {
+    display: flex;
+        flex-direction: column;
+}
+.curv {
+    display: none;
+    width: 375px;
+    position: absolute;
+    top: 123%;
+}
+.div-textbout .textmarg h1 {
+    font-size: 17px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+}
+.div-textbout {
+    margin: 0px; 
+    
+    
+}
+.div-textbout .textmarg p{
+    font-size: 14px;
+}
+.brspanp {
+    display: none;
+}
+.div-textbout a {
+margin: 42px 79px;
+transition: 0.4s;
+}
+.massage {
+    border-radius: 5px;
+    margin: 55px 0 105px;
+}
+.msgdiv {
+    font-size: 16px;
+    margin-top: -10px; 
+    text-align: start;
+}
+.picflextext {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+ /* Section 3 */
+.div-margs3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+}
+.div-texts3 h2 {
+    margin: 46px 92px 17px;
+    font-size: 18px;
+}
+.div-inputs3 {
+    margin: 0;
+    width: 100%;
+    
+}
+.div-inputs3 input {
+    padding: 10px 92px 10px 0px;
+    margin: 28px 0 0 0;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.div-inputs3 button {
+    padding: 10px 63px 10px 63px;
+    border-radius: 3px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: var(--fontraleway);
+    font-weight: 600;
+    box-shadow: none;
+}
+.div-texts3 {
+    width: 100%;
+    text-align: center;
+}
+.div-texts3 p {
+    padding: 0px 22px;
+}
+.early-accs {
+    padding-bottom: 60px;
+}
+/* Footer */
+.fatherfoot {
+    display: flex;
+    flex-direction: column;
+}
+.fatherfoot div {
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.logofooter {
+    margin-bottom: 10px;
+}
+.fc {
+    margin-left: 0;
+    margin-bottom: 13px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    nav div {
+    justify-content: space-between;
+    margin: 23px;
+    align-items: center;
+}
+nav a {
+    margin-right: 17px ;
+}
+nav img {
+    height: 30px;
+    width: 98px;
+    margin-right: 15px;
+
+}
+nav ul {
+    font-size: 16px;
+}
+.fatherfather {
+    margin: 0;
+    
+}
+
+.features .div-text h1 {
+    text-align: center;
+    font-size:24px; 
+    line-height: 30px;
+    font-family: var(--fontopen);
+}
+.features .div-text p {
+    text-align: center;
+}
+.features .div-text p span {
+    display: none;
+    
+}
+.sec1img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+}
+.features {
+    flex-direction: column;
+    justify-content: center;
+}
+.emailf {
+    /* padding: 10px 160px 10px 0; */
+    font-family: var(--fontraleway);
+    margin: 10px 0 0 16px;
+    width: 50%;}
+.textmarg {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex
+;
+}
+.div-text button {
+    margin-top: 20px;
+        /* padding: 10px 115px 12px 115px; */
+        font-size: 15px;
+        margin: 15px 0 0 15px;
+        width: 50%;
+}
+/* about */
+.about {
+    margin-top: 0;
+    border-radius: 0;
+    display: block;
+    flex-flow: row-reverse;
+
+}
+.imgabout img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.div-marg {
+    display: flex;
+        flex-direction: column;
+}
+.curv {
+    display: none;
+    width: 375px;
+    position: absolute;
+    top: 123%;
+}
+.div-textbout .textmarg h1 {
+    font-size: 17px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+}
+.div-textbout {
+    margin: 0px; 
+    
+    
+}
+.div-textbout .textmarg p{
+    font-size: 14px;
+}
+.brspanp {
+    display: none;
+}
+.div-textbout a {
+margin: 42px 79px;
+transition: 0.4s;
+}
+.massage {
+    border-radius: 5px;
+    margin: 55px 0 105px;
+}
+.msgdiv {
+    font-size: 16px;
+    margin-top: -10px; 
+    text-align: start;
+}
+.picflextext {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+ /* Section 3 */
+.div-margs3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+}
+.div-texts3 h2 {
+    margin: 46px 92px 17px;
+    font-size: 18px;
+}
+.div-inputs3 {
+    margin: 0;
+    width: 100%;
+    
+}
+.div-inputs3 input {
+width: 50%;    margin: 28px 0 0 0;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.div-inputs3 button {
+width: 50%;    border-radius: 3px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: var(--fontraleway);
+    font-weight: 600;
+    box-shadow: none;
+}
+.div-texts3 {
+    width: 100%;
+    text-align: center;
+}
+.div-texts3 p {
+    padding: 0px 22px;
+}
+.early-accs {
+    padding-bottom: 60px;
+}
+/* Footer */
+.fatherfoot {
+    display: flex;
+    flex-direction: column;
+}
+.fatherfoot div {
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.logofooter {
+    margin-bottom: 10px;
+}
+.fc {
+    margin-left: 0;
+    margin-bottom: 13px;
+}
+.onlyipad {
+    display: block;
+}
+}
+@media screen and (min-width:992px) and (max-width:1279px) {
+
+    nav div {
+    justify-content: space-between;
+    margin: 23px;
+    align-items: center;
+}
+nav a {
+    margin-right: 17px ;
+}
+nav img {
+    height: 30px;
+    width: 98px;
+    margin-right: 15px;
+
+}
+nav ul {
+    font-size: 16px;
+}
+.fatherfather {
+    margin: 0;
+    
+}
+
+.features .div-text h1 {
+    text-align: center;
+    font-size:24px; 
+    line-height: 30px;
+    font-family: var(--fontopen);
+}
+.features .div-text p {
+    text-align: center;
+}
+.features .div-text p span {
+    display: none;
+    
+}
+.sec1img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+}
+.features {
+    flex-direction: column;
+    justify-content: center;
+}
+.emailf {
+    /* padding: 10px 160px 10px 0; */
+    font-family: var(--fontraleway);
+    margin: 10px 0 0 16px;
+    width: 50%;}
+.textmarg {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex
+;
+}
+.div-text button {
+    margin-top: 20px;
+        /* padding: 10px 115px 12px 115px; */
+        font-size: 15px;
+        margin: 15px 0 0 15px;
+        width: 50%;
+}
+/* about */
+.about {
+    margin-top: 0;
+    border-radius: 0;
+    display: block;
+    flex-flow: row-reverse;
+
+}
+.imgabout img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    margin-bottom: 25px;
+}
+.div-marg {
+    display: flex;
+        flex-direction: column;
+}
+.curv {
+    display: none;
+    width: 375px;
+    position: absolute;
+    top: 123%;
+}
+.div-textbout .textmarg h1 {
+    font-size: 17px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+}
+.div-textbout {
+    margin: 0px; 
+    
+    
+}
+.div-textbout .textmarg p{
+    font-size: 14px;
+}
+.brspanp {
+    display: none;
+}
+.div-textbout a {
+margin: 42px 79px;
+transition: 0.4s;
+}
+.massage {
+    border-radius: 5px;
+    margin: 55px 0 105px;
+}
+.msgdiv {
+    font-size: 16px;
+    margin-top: -10px; 
+    text-align: start;
+}
+.picflextext {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+ /* Section 3 */
+.div-margs3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+}
+.div-texts3 h2 {
+    margin: 46px 92px 17px;
+    font-size: 18px;
+}
+.div-inputs3 {
+    margin: 0;
+    width: 100%;
+    
+}
+.div-inputs3 input {
+width: 50%;    margin: 28px 0 0 0;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.div-inputs3 button {
+width: 50%;    border-radius: 3px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: var(--fontraleway);
+    font-weight: 600;
+    box-shadow: none;
+}
+.div-texts3 {
+    width: 100%;
+    text-align: center;
+}
+.div-texts3 p {
+    padding: 0px 22px;
+}
+.early-accs {
+    padding-bottom: 60px;
+}
+/* Footer */
+.fatherfoot {
+    display: flex;
+    flex-direction: column;
+}
+.fatherfoot div {
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.logofooter {
+    margin-bottom: 10px;
+}
+.fc {
+    margin-left: 0;
+    margin-bottom: 13px;
+}
+.onlyipad {
+    display: block;
+}
+}
